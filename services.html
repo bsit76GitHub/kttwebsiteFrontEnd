@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="serstyle.css">
+    <title>Services-ktt</title>
+</head>
+
+<body id="home">
+
+    <nav id="nav">
+        <div class="menu_container">
+            <div class="menu_box">
+                <a class="menu_box_a" href="index.html">
+                    <div class="option">Home</div>
+                </a>
+            </div>
+            <div class="menu_box">
+                <a class="menu_box_a" id="Load-section-car">
+                    <div id="car-section-content" class="option">Car Service</div>
+                </a>
+            </div>
+            <div class="menu_box">
+                <a class="menu_box_a" id="Load-section-bus">
+                    <div class="option">Buses</div>
+                </a>
+            </div>
+            <div class="menu_box">
+                <a class="menu_box_a" id="Load-section-train">
+                    <div class="option">Trains</div>
+                </a>
+            </div>
+
+            <div class="menu_box">
+                <a class="menu_box_a" id="Load-section-flight">
+                    <div class="option">Flights</div>
+                </a>
+            </div>
+
+            <div class="menu_box">
+                <a class="menu_box_a" id="Load-section-hotel">
+                    <div class="option">Hotels</div>
+                </a>
+            </div>
+            <div class="menu_box">
+                <a class="menu_box_a" id="Load-section-tour">
+                    <div class="option">Tour Packages</div>
+                </a>
+            </div>
+
+            <div class="menu_box_i">
+                <a class="menu_box_i_a" id="menu-btn" href="#">
+                    <img class="menu_box_img" src="menuicon.png" alt="menuicon.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-----------navbarPotraitMode--------------->
+    <div class="menu_modal" id="menu-modal">
+        <center>
+            <h3>NavbarModal</h3>
+        </center>
+        <a class="menuModal_a" href="#home">
+            <div class="menuModaloption">Home</div>
+        </a>
+        <a class="menuModal_a" id="Load-section-car">
+            <div class="menuModaloption">Car</div>
+        </a>
+        <a class="menuModal_a" id="Load-section-bus">
+            <div class="menuModaloption">Buses</div>
+        </a>
+        <a class="menuModal_a" id="Load-section-train">
+            <div class="menuModaloption">Trains</div>
+        </a>
+        <a class="menuModal_a" id="Load-section-flight">
+            <div class="menuModaloption">Flights</div>
+        </a>
+        <a class="menuModal_a" id="Load-section-hotel">
+            <div class="menuModaloption">Hotels</div>
+        </a>
+        <a class="menuModal_a" id="Load-section-tour">
+            <div class="menuModaloption">Tour Package</div>
+        </a>
+    </div>
+    <!------==============================================================-->
+    <div class="container">
+
+        <div id="element2">
+            <img id="logo" src="kttlogo.jpg" alt="image">
+            <div id="details">
+                <p class="e2n" id="h">KAMTA TOUR AND TRAVELS</p>
+                <p class="e2n" id="name">Nandani Kumari & Arun kumar</p>
+                <p class="e2n" id="position">Proprietor</p>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column;justify-content: center; row-gap: 5vw; ">
+            <div class="logodiv">
+                <img class="logoimage" src="honeymoon.png" alt="logoimage">
+                <img class="logoimage" src="car.png" alt="logoimage">
+                <img class="logoimage" src="special.png" alt="logoimage">
+                <img class="logoimage" src="luxury.png" alt="logoimage">
+                <img class="logoimage" src="bgtour.jpg" alt="logoimage">
+                <img class="logoimage" src="train1.jpg" alt="logoimage">
+                <img class="logoimage" src="thailand.jpg" alt="logoimage">
+                <img class="logoimage" src="rammandir.jpg" alt="logoimage">
+            </div>
+
+            <div class="logodiv" id="sampleimage">
+                <img class="logoimage1" src="bgtour.jpg" alt="logoimage">
+                <img class="logoimage1" src="train1.jpg" alt="logoimage">
+                <img class="logoimage1" src="thailand.jpg" alt="logoimage">
+                <img class="logoimage1" src="rammandir.jpg" alt="logoimage">
+            </div>
+
+            <!--*****************************************-->
+
+            <!--====car=======================================-->
+            <div class="sec1 subcontentbodys" id="section1">
+                <div style="display: flex;flex-direction: row; gap: 1vw;">
+                    <img class="carimage" src="car1.png" alt="carImage">
+                    <img class="carimage" src="hcity.jpg" alt="carImage">
+                    <img class="carimage" src="innova.jpg" alt="carImage">
+                </div>
+
+                <div style=" font-weight: bolder;">
+                    <table style="border: solid black 2px; ">
+                        <caption>
+                            <h3>Car Booking :</h3>
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <td>Name :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Phone :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Email :</td>
+                                <td><input type="email" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Pick-up Date :</td>
+                                <td><input type="datetime-local" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Select Car :</td>
+                                <td>
+                                    <select name="" id="" class="selectarea">
+                                        <option value="select city">Select Car</option>
+                                        <option value="">SUV</option>
+                                        <option value="">Hachback</option>
+                                        <option value="">Inova</option>
+                                        <option value="">Ertiga</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pick-up Location :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Destination :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--============================================---------->
+            <div class="sec2 subcontentbodys" id="section2">
+                <div style="display: flex;flex-direction: row; gap: 1vw;">
+                    <img class="carimage" src="bus3.webp" alt="busImage">
+                    <img class="carimage" src="bus4.webp" alt="busImage">
+                    <img class="carimage" src="bus5.jpg" alt="busImage">
+                </div>
+                <div style=" font-weight: bolder;">
+                    <table style="border: solid black 2px; ">
+                        <caption>
+                            <h3>Bus Booking</h3>
+                        </caption>
+                        <tbody>
+
+                            <tr>
+                                <td>Name :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Phone :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Email :</td>
+                                <td><input type="email" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Pick-up Date :</td>
+                                <td><input type="datetime-local" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Select Car :</td>
+                                <td>
+                                    <select name="" id="" class="selectarea">
+                                        <option value="select city">Select Car</option>
+                                        <option value="">SUV</option>
+                                        <option value="">Hachback</option>
+                                        <option value="">Inova</option>
+                                        <option value="">Ertiga</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pick-up Location :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Destination :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <!--*************************-->
+            <div class="sec3 subcontentbodys" id="section3">
+
+
+                <div style="display: flex;flex-direction: row; gap: 1vw;">
+                    <img class="carimage" src="train1.jpg" alt="trainImage">
+                    <img class="carimage" src="tejasinterior.jpg" alt="trainImage">
+                    <img class="carimage" src="traininterior.webp" alt="trainImage">
+                    <img class="carimage" src="vande-bharatR.avif" alt="trainImage">
+                </div>
+
+                <div style=" font-weight: bolder;">
+                    <table style="border: solid black 2px; ">
+                        <caption>
+                            <h3>Train Booking :</h3>
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <td>Name :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Phone :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Email :</td>
+                                <td><input type="email" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Booking Date :</td>
+                                <td><input type="date" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Reservation Type :</td>
+                                <td>
+                                    <select name="" id="" class="selectarea">
+                                        <option value="">Select reservation Category</option>
+                                        <option value="">1A</option>
+                                        <option value="">2A</option>
+                                        <option value="">3A</option>
+                                        <option value="">3E</option>
+                                        <option value="">SL</option>
+                                        <option value="">CC</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Boading Station :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Destination :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <!---************************-->
+            <div class="sec4 subcontentbodys" id="section4">
+
+                <div style="display: flex;flex-direction: row; gap: 1vw;">
+                    <img class="carimage" src="flight.jpg" alt="flightImage">
+                    <img class="carimage" src="flight1.jpg" alt="flightImage">
+                    <img class="carimage" src="flightinterior.jpg" alt="flightImage">
+                    <img class="carimage" src="flightinterior1.jpg" alt="flightImage">
+                </div>
+                <div style=" font-weight: bolder;">
+                    <table style="border: solid black 2px; ">
+                        <caption>
+                            <h3>Flight Services</h3>
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <td>Name :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Phone :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Email :</td>
+                                <td><input type="email" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Boading Date :</td>
+                                <td><input type="datetime-local" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Boading :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Destination :</td>
+                                <td><input type="text" class="inputarea"></td>
+                            </tr>
+                            <tr>
+                                <td>Class :</td>
+                                <td>
+                                    <select name="" id="" class="selectarea">
+                                        <option value="select city">Select Class</option>
+                                        <option value="">1st Class</option>
+                                        <option value="">Bussiness Class</option>
+                                        <option value="">Premiue Economy</option>
+                                        <option value="">Economy Class</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <!---*****************-->
+        <div class="sec4" id="section5">
+            <div class="hotels subcontentbodys" id="hotel-section-content">
+                <center>
+                    <h2>Hotels</h2>
+                </center>
+                <div class="hotelsection">
+                    <div class="hoteloption">
+                        <div class="hotelname">
+                            <h3 class="hoteltype">Standard Hotel </h3>
+                        </div>
+                        <div class="hotelbody">
+                            <div class="pichotel">
+                                <img src="hotel1.jpg" alt="">
+                            </div>
+                            <div class="deshotel">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit aliquam pariatur, eaque
+                                dignissimos
+                                aspernatur temporibus accusamus voluptatem consequuntur, architecto iste dolorum earum
+                                tempora
+                                repellendus neque provident fugiat quod doloribus tenetur omnis dicta excepturi ipsam.
+                                Nihil
+                                laboriosam at atque dicta asperiores enim obcaecati nemo tempora facilis. Alias officia
+                                temporibus
+                                similique voluptas.
+                                <a id="bookingForm1H">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoteloption">
+                        <div class="hotelname">
+                            <h3 class="hoteltype">Deluxe Hotel </h3>
+                        </div>
+                        <div class="hotelbody">
+
+                            <div class="pichotel">
+                                <img src="hotel2.jpg" alt="">
+                            </div>
+                            <div class="deshotel">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit aliquam pariatur, eaque
+                                dignissimos
+                                aspernatur temporibus accusamus voluptatem consequuntur, architecto iste dolorum earum
+                                tempora
+                                repellendus neque provident fugiat quod doloribus tenetur omnis dicta excepturi ipsam.
+                                Nihil
+                                laboriosam at atque dicta asperiores enim obcaecati nemo tempora facilis. Alias officia
+                                temporibus
+                                similique voluptas.
+                                <a id="bookingForm2H">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoteloption">
+                        <div class="hotelname">
+                            <h3 class="hoteltype">Star Hotel </h3>
+                        </div>
+                        <div class="hotelbody">
+
+                            <div class="pichotel">
+                                <img src="hotel3.jpg" alt="">
+                            </div>
+                            <div class="deshotel">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit aliquam pariatur, eaque
+                                dignissimos
+                                aspernatur temporibus accusamus voluptatem consequuntur, architecto iste dolorum earum
+                                tempora
+                                repellendus neque provident fugiat quod doloribus tenetur omnis dicta excepturi ipsam.
+                                Nihil
+                                laboriosam at atque dicta asperiores enim obcaecati nemo tempora facilis. Alias officia
+                                temporibus
+                                similique voluptas.
+                                <a id="bookingForm3H">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---***********************************-->
+        <div class="sec4" id="section6">
+            <div class="tourpackage subcontentbodys" id="tour-section-content">
+                <center>
+                    <h2>Tour Package</h2>
+                </center>
+                <div>
+                    <label for="domestic">Domestic</label>
+                    <input type="radio" name="a" id="domestic">
+                    <label for="international">International</label>
+                    <input type="radio" name="a" id="international">
+                </div>
+                <div class="hotelsection">
+                    <div class="hoteloption">
+                        <div class="hotelname">
+                            <h3 class="hoteltype">Nepal</h3>
+                        </div>
+                        <div class="hotelbody">
+
+                            <div class="pichotel">
+                                <img src="nepal.jpg" alt="" style="aspect-ratio: 1.85;">
+                            </div>
+                            <div class="deshotel">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit aliquam pariatur, eaque
+                                dignissimos
+                                aspernatur temporibus accusamus voluptatem consequuntur, architecto iste dolorum earum
+                                tempora
+                                repellendus neque provident fugiat quod doloribus tenetur omnis dicta excepturi ipsam.
+                                Nihil
+                                laboriosam at atque dicta asperiores enim obcaecati nemo tempora facilis. Alias officia
+                                temporibus
+                                similique voluptas.
+                                <a id="bookingForm1T">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoteloption">
+                        <div class="hotelname">
+                            <h3 class="hoteltype">India</h3>
+                        </div>
+                        <div class="hotelbody">
+
+                            <div class="pichotel">
+                                <img src="rammandir.jpg" alt="" style="aspect-ratio: 1.85;">
+                            </div>
+                            <div class="deshotel">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit aliquam pariatur, eaque
+                                dignissimos
+                                aspernatur temporibus accusamus voluptatem consequuntur, architecto iste dolorum earum
+                                tempora
+                                repellendus neque provident fugiat quod doloribus tenetur omnis dicta excepturi ipsam.
+                                Nihil
+                                laboriosam at atque dicta asperiores enim obcaecati nemo tempora facilis. Alias officia
+                                temporibus
+                                similique voluptas.
+                                <a id="bookingForm2T">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoteloption">
+                        <div class="hotelname">
+                            <h3 class="hoteltype">Thailand</h3>
+                        </div>
+                        <div class="hotelbody">
+
+                            <div class="pichotel">
+                                <img src="thailand2.jpg" alt="" style="aspect-ratio: 1.85;" id="">
+                            </div>
+                            <div class="deshotel">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit aliquam pariatur, eaque
+                                dignissimos
+                                aspernatur temporibus accusamus voluptatem consequuntur, architecto iste dolorum earum
+                                tempora
+                                repellendus neque provident fugiat quod doloribus tenetur omnis dicta excepturi ipsam.
+                                Nihil
+                                laboriosam at atque dicta asperiores enim obcaecati nemo tempora facilis. Alias officia
+                                temporibus
+                                similique voluptas.
+                                <a id="bookingForm3T">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--*************************************************************-->
+       
+    <div class="subcontentbodys BookingForm" id="bookingFormHotel">
+        <table>
+            <caption>
+                <h3>Please Fill for Hotel Booking :</h3>
+            </caption>
+            <tbody>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Phone :</td>
+                    <td><input type="text" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Check-in Date :</td>
+                    <td><input type="date" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Check-out Date :</td>
+                    <td><input type="date" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Select Hotel :</td>
+                    <td>
+                        <select name="" id="" class="selectarea">
+                            <option value="">Select Hotel Type</option>
+                            <option value="">luxury</option>
+                            <option value="">Deluxe</option>
+                            <option value="">Standard</option>
+                            <option value="">Economy</option>
+                        </select>
+                    </td>
+                </tr>
+               <tr>
+               <table>
+                <tr> <td>Total No. of Persion :</td>
+                    <td><input type="number" style="width: 3vw; background-color: rgb(172, 253, 253);"></td>
+                    <td>Adult:</td>
+                    <td><input type="number" style="width: 2vw; background-color: rgb(172, 253, 253);"></td>
+                    <td>Child:</td>
+                    <td><input type="number" style="width: 2vw; background-color: rgb(172, 253, 253);"></td></tr>
+               </table>
+               </tr>
+            </tbody>
+        </table>
+    </div>
+
+  
+    <div class="subcontentbodys BookingForm" id="bookingFormTour">
+        <table>
+            <caption>
+                <h3>Please Fill for Tour Booking :</h3>
+            </caption>
+            <tbody>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Phone :</td>
+                    <td><input type="text" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Trip Date :</td>
+                    <td><input type="date" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Trip Days :</td>
+                    <td><input type="date" class="inputarea"></td>
+                </tr>
+                <tr>
+                    <td>Select Trip :</td>
+                    <td>
+                        <select name="" id="" class="selectarea">
+                            <option value="">Select Trip Category</option>
+                            <option value="">luxury</option>
+                            <option value="">Deluxe</option>
+                            <option value="">Standard</option>
+                            <option value="">Economy</option>
+                        </select>
+                    </td>
+                </tr>
+               <tr>
+               <table>
+                <tr> <td>Total No. of Persion :</td>
+                    <td><input type="number" style="width: 3vw; background-color: rgb(172, 253, 253);"></td>
+                    <td>Adult:</td>
+                    <td><input type="number" style="width: 2vw; background-color: rgb(172, 253, 253);"></td>
+                    <td>Child:</td>
+                    <td><input type="number" style="width: 2vw; background-color: rgb(172, 253, 253);"></td></tr>
+               </table>
+               </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!------/==============================================================-->
+
+    <footer id="footer">
+        <p class="p" id="p">&copy Copy Right Reserved</p>
+    </footer>
+
+
+    <script src="serscript.js"></script>
+</body>
+
+</html>
